@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rabbit.name %>
+</p>
+
+<p>
+  <strong>Building picture:</strong>
+  <%= @rabbit.building_picture %>
+  <%= cl_image_tag(@rabbit.building_picture.path, { size: '100x100', crop: :thumb, gravity: :face }) %>
+</p>
+
+<%= link_to 'Edit', edit_rabbit_path(@rabbit) %> |
+<%= link_to 'Back', rabbits_path %>

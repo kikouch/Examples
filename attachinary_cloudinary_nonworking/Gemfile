@@ -45,4 +45,5 @@ end
 
 gem 'cloudinary'
 gem 'attachinary'
-
+gem 'figaro'
+# gem 'jquery-ui-rails'
