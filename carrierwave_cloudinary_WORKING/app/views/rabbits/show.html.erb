@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rabbit.name %>
+</p>
+
+<p>
+  <strong>Building picture:</strong>
+  <%= @rabbit.building_picture %>
+  <%= image_tag(@rabbit.building_picture_url(:thumbnail), :width => 50, :height => 50) %>
+  <%= image_tag(@rabbit.building_picture_url(:standard)) %>
+
+</p>
+
+<%= link_to 'Edit', edit_rabbit_path(@rabbit) %> |
+<%= link_to 'Back', rabbits_path %>
