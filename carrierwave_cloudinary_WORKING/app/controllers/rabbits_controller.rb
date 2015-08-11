@@ -51,6 +51,10 @@ class RabbitsController < ApplicationController
     end
   end
 
+  def about
+    
+  end
+
   # DELETE /rabbits/1
   # DELETE /rabbits/1.json
   def destroy
