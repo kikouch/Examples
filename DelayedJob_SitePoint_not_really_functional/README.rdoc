@@ -1,0 +1,17 @@
+The problem with this tutorial is that they didn't really want you to accomplish anything. Just gave best practices.
+
+I learned that you can improve upon delayed_job with a few simple steps.
+
+The deets...
+1) Add all jobs into app/jobs/
+2) Then create a Folder within that. A folder that associates to a Model?
+3) Then put all jobs in separate files within that folder...
+
+
+Questions Remaining...
+1) How do I add jobs?
+2) How do I run jobs in development / production?
+3) Where would this even have to exist for rails to recognize it? NameError: uninitialized constant VideoStreamer::Video
+
+
+http://www.sitepoint.com/delayed-jobs-best-practices/

@@ -1,0 +1,3 @@
+module WTF
+
+end
